@@ -1,0 +1,257 @@
+body{
+  background-color:black ;
+  height: 100%;
+  font-style: normal;
+}
+.header{
+  display:flex;
+  flex-direction: row;
+  height:100px;
+  place-items:center;
+  margin-top:20px;
+  margin-left:100px ;
+  margin-right:100px ;
+  background-color:#161414 ;
+  color:gray;
+  border-width: 2px;
+  border-radius: 10px;
+  column-gap: 20px;
+  
+}
+.AboutMe{
+  color: orange;
+}
+.left-section{
+  place-items: center;
+  margin-left:20px;
+  flex:1;
+}
+
+.right-section{
+  display: flex;
+  column-gap: 20px;
+  flex:1;
+}
+.content{
+  display:flex;
+  flex-direction: row;
+  margin: 100px;
+  background-color:#1d1b1b;
+  height:500px;
+  border-radius: 20px;
+}
+.my_poto{
+  width: 300px;
+  height:300px;
+  border-radius: 40px;
+  cursor:pointer;
+  border-width: 10px;
+  border:thick;
+  border-color: white;
+  border-style:solid;
+}
+.content_left{
+  padding-left: 30px;
+  max-width:650px;
+  color:gray;
+}
+.content_right{
+  padding:100px; 
+  margin-left: 40px;
+}
+.hello{
+  font-style: italic;
+  color: orange;
+  font-size: 20px;
+}
+.name{
+  font-weight: 100;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bold;
+  color:white
+}
+
+.heading_buttons{
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.heading_buttons:hover{
+  color: black;
+  background-color: white;
+  border-width: 10px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Resume{
+  display: grid;
+  margin: 100px;
+  background-color:#1d1b1b;
+  height:800px;
+  border-radius: 20px;
+  color:black;
+  font-style: italic;
+  text-align: center;
+  place-items: center;
+}
+.about{
+  display:grid;
+  margin: 100px;
+  background-color:#1d1b1b;
+  height:650px;
+  border-radius: 20px;
+  color:black;
+  font-style: italic;
+  text-align: center;
+}
+.contact{
+  margin: 100px;
+  background-color:#1d1b1b;
+  height:500px;
+  border-radius: 20px;
+  color:black;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+}
+.portfolio1{
+  margin: 100px;
+  background-color:#1d1b1b;
+  height:800px;
+  border-radius: 20px;
+  color:black;
+  font-style: normal;
+  text-align: center;
+  padding-top: 20px;
+}
+.skills{
+  margin: 100px;
+  background-color:#1d1b1b;
+  height:800px;
+  border-radius: 20px;
+  color:black;
+  font-style: normal,bold;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.res{
+  width: 80%;
+  height: 80%;
+  aspect-ratio: 4/3;
+}
+.con_but{
+  margin-top: 30px;
+  border-radius: 5px;
+  height: 30px;
+  background-color: orange;
+  color: black;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+.con_but:hover{
+  background-color: black;
+  color: orange;
+  transition: 0.5s;
+}
+
+.htmlcss{
+  height: 200px;
+  width: 300px;
+}
+.prt_cnt{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  place-items:center ;
+}
+
+.skill_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  place-items: center;
+}
+.python{
+  height: 300px;
+  width: 300px;
+}
+.contact_content{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+.contact_left{
+  padding-top: 60px; 
+  padding-left: 30px;
+  color: grey;
+  font-style: normal;
+  text-align: left;
+  flex:1;
+}
+.contact_right{
+  padding-top: 30px;
+  flex: 1;
+}
+.contact_poto{
+  height:300px;
+  width:300px;
+  border-radius: 20px;
+  border: solid;
+  border-width: 5px;
+  border-color: white;
+  cursor: pointer;
+}
+.contact_name{
+  font-size: 50px;
+  color: orange;
+  font-weight: 100;
+}
+.Mail_id{
+  color:white;
+}
+h1{
+  color: white;
+}
+.prt_img{
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.prt_text{
+  font-size: 30px;
+  color: gray;
+  margin: 50px;
+}
+.about_content{
+  display: flex;
+}
+.about_img{
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
+}
+.about_left{
+  flex: 1;
+}
+.about_right{
+  flex:1;
+  font-size: 30px;
+  color: gray;
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  margin-right: 40px;
+  margin-bottom: 90px;
+  padding: 15px;
+}
